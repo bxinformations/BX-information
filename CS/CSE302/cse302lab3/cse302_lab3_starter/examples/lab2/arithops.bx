@@ -1,0 +1,8 @@
+def main() {
+  var x = 42 : int;
+  var y = x >> 1 : int;
+  print(x + y);
+  print(x - y);
+  var z = x * 3 + y : int;
+  print(z % x);
+}

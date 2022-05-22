@@ -1,0 +1,5 @@
+def main() {
+  var x : int;
+  x = 20;
+  print(2 * x + 2);
+}

@@ -1,0 +1,44 @@
+
+def dynarr_ptwise(x : int*, y : int*) : int* {
+  var z = alloc int[3] : int*;
+  z[0] = x[0] * y[0];
+  z[1] = x[1] * y[1];
+  z[2] = x[2] * y[2];
+  return z;
+}
+
+type vec3 = int;
+
+def vec3_ptwise(x : vec3*, y : vec3*) : vec3* {
+  var z = alloc vec3[3] : vec3*;
+  z[0] = x[0] * y[0];
+  z[1] = x[1] * y[1];
+  z[2] = x[2] * y[2];
+  return z;
+}
+
+def vec3_dot(x : vec3*, y : vec3*) : int {
+  var z = 0 : vec3[3];
+  z[0] = x[0] * y[0];
+  z[1] = x[1] * y[1];
+  z[2] = x[2] * y[2];
+  return z[0] + z[1] + z[2];
+}
+
+def main() {
+  var x = alloc vec3[3] : int*;
+  var y = alloc vec3[3] : int*;
+  x[0] = 1;
+  x[1] = 2;
+  x[2] = 3;
+  y[0] = 12;
+  y[1] = 123;
+  y[2] = 23;
+  var res_p = vec3_ptwise(x, y) : int*;
+  print(*res_p);
+  
+  var res = vec3_dot(x,y) : int;
+  print(res);
+  var res1 = vec3_ptwise(x,y) : vec3*;
+  print(res1[0]);
+}

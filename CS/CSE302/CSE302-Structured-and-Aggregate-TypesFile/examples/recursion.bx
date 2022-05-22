@@ -1,0 +1,19 @@
+def fib(n : int) : int{
+    if (n == 0) {
+        return 0;
+    }
+    
+    if (n == 1) {
+        return 1;
+    }
+
+    var f = fib(n - 1) + fib(n - 2) : int;
+    print(f);
+    return f;
+}
+
+var n = 10 : int;
+
+def main() {
+    print(fib(n + 5));
+}

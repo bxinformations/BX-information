@@ -1,0 +1,8 @@
+butter,125
+wheat flour,100
+yeast,1
+almond,20
+egg,2
+sugar,100
+vanilla,5
+

@@ -1,0 +1,4 @@
+def main() {
+    var n = 10 : int;
+    var arr = 0 : int[n];
+}

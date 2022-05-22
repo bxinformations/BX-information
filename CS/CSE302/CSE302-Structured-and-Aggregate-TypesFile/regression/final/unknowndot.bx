@@ -1,0 +1,6 @@
+def main() {
+    var x = 0 : struct{x : int, y : bool};
+    if (x.x) {
+        print(false);
+    }
+}

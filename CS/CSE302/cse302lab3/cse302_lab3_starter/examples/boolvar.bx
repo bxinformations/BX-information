@@ -1,0 +1,40 @@
+def main() {
+    var x = true && false : bool;
+    var y = false || true : bool;
+    print(1);
+
+    var z = x || y : bool;
+
+    if (z) {
+        print(2);
+    }
+
+    if (!z) {
+        print(3);
+    }
+    else {
+        print(4);
+    }
+
+    var t = 10 : int;
+    var f = 0 : int;
+
+    if (f == !z) {
+        print(5);
+    }
+    else {
+        print(6);
+    }
+
+    if (!t == !z) {
+        print(7);
+    }
+    else {
+        print(8);
+    }
+
+    if(!f) {
+        print(9);
+    }
+
+}

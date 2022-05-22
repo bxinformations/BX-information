@@ -1,0 +1,10 @@
+def main() {
+  var x = 10 : int;
+  var y = 20 : int;
+  if (2 * x == y) {
+      print(42);
+  }
+  else {
+      print(-42);
+  }
+}

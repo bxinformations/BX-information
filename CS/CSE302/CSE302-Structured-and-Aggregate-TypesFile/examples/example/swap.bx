@@ -1,0 +1,22 @@
+def swap(x : int*, y : int*)
+{
+    var tmp = *x : int;
+    //print(tmp);
+    *x = *y;
+    //print(*y);
+    *y = tmp;
+    //print(*y);
+}
+
+def main() 
+{
+    var x = 1, y = 2 : int;
+    swap(&x, &y);
+    print(x);
+    print(y);
+    var a = alloc int[2] : int*;
+    a[0] = 1; a[1] = 2;
+    swap(&a[0], &a[1]);
+    print(a[0]);
+    print(a[1]);
+}

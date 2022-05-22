@@ -1,0 +1,3 @@
+SIZE 1
+ROW .
+CLUE (0,0) down: A (1)

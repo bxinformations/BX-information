@@ -1,0 +1,4 @@
+// initializers must have the right type
+def main() {
+  var x = 1 : bool;
+}

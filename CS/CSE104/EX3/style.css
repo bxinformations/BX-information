@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    font-weight: bold;
+}
+
+section p {
+    background-color: darkturquoise;
+    border-radius: 10px;
+    border: 2px solid blue;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    padding: 10px
+}
+
+footer p {
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+    margin: 10px;
+}

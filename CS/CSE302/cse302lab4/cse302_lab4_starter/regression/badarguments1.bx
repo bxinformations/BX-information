@@ -1,0 +1,7 @@
+def f(x :int, x : bool){
+    print(x);
+}
+
+def main(){
+    f(5, 5);
+}

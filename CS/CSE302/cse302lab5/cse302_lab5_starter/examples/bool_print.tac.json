@@ -1,0 +1,1053 @@
+[
+  {
+    "proc": "@main",
+    "args": [],
+    "body": [
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.entry"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.3"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.12"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.0"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          1
+        ],
+        "result": "%1"
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.2"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%1"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.20"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.18"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.22"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.23"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.24"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.25"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.21"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.17"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.27"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.26"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.29"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.28"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.32"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.14"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          1
+        ],
+        "result": "%2"
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.16"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%2"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.41"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.40"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.39"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.37"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.47"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.46"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.36"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.50"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.49"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.53"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.55"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.54"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.51"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.65"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.66"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.67"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.33"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          1
+        ],
+        "result": "%3"
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.35"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%3"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.74"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.73"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.72"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.77"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.76"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.75"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.80"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.68"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          1
+        ],
+        "result": "%4"
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.70"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%4"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.143"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.140"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0
+        ],
+        "result": "%5"
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.141"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%5"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.161"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.160"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.159"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.163"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.165"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.166"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.164"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.157"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0
+        ],
+        "result": "%6"
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.158"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%6"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.180"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.181"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.182"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.179"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.183"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.185"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.188"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.190"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.184"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.204"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.205"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.178"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.176"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0
+        ],
+        "result": "%7"
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.177"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%7"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.215"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.217"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.213"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.272"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.276"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.278"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.211"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0
+        ],
+        "result": "%8"
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.212"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%8"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.291"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.289"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.288"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.286"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.306"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.305"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.302"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.320"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.321"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.322"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.324"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.323"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.319"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.326"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.285"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.330"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.358"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.357"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.359"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.360"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.362"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.364"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.363"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.354"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.422"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.424"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.425"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.423"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.421"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.427"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.420"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.429"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.430"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.419"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.431"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.283"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "const",
+        "args": [
+          0
+        ],
+        "result": "%9"
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.284"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "param",
+        "args": [
+          1,
+          "%9"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "call",
+        "args": [
+          "@__bx_print_bool",
+          1
+        ],
+        "result": null
+      },
+      {
+        "opcode": "label",
+        "args": [
+          "%.L.exit"
+        ],
+        "result": null
+      },
+      {
+        "opcode": "ret",
+        "args": [],
+        "result": null
+      }
+    ]
+  }
+]

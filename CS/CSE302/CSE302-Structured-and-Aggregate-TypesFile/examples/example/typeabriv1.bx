@@ -1,0 +1,14 @@
+type myint = int[5];
+
+var glob = 0 : myint;
+
+def main() {
+    var x = 0 : myint;
+    x[3] = 10;
+    x[2] = 1;
+    x[1] = -2;
+    glob[0] = 3;
+    x[0] = x[1] + x[2] + x[3] + glob[0];
+
+    print(x[0]);
+}

@@ -1,0 +1,23 @@
+body {
+    text-align: right;
+}
+
+a {
+    display: inline;
+    background-color: black;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 5px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: darkgrey;
+}
+
+#selected {
+    background-color: darkgreen;
+}

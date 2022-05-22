@@ -1,0 +1,20 @@
+# Peixin You peixin.you
+
+    mrmovq x, %rax
+    mrmovq x, %rcx
+    mrmovq y, %rdx
+    irmovq $1, %rbx
+    irmovq $5, %rbp
+    subq %rbp, %rcx
+    jle Ltrue
+    addq %rax, %rbx
+    rrmovq %rbx, %rdx
+    jmp Lend
+Ltrue:
+    rrmovq %rax, %rdx
+Lend:
+    rmmovq %rdx, y
+    halt
+.pos 0x100
+x: .quad 0x0c
+y: .quad 0x00

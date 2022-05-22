@@ -1,0 +1,4 @@
+Apples, Napoli = 28/2, Marseille = 11/3
+Bananas, Napoli = 27/2, Barcelona = 10/3
+Carrots, Barcelona = 1/1, Panama = 31/12
+Dumplings, Panama = 31/8, San Diego = 30/9

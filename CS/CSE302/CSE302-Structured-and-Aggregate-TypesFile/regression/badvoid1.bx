@@ -1,0 +1,6 @@
+def f(){}
+
+def main() {
+    var x = false : bool;
+    x = f(); 
+}

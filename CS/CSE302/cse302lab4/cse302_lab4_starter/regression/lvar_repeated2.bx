@@ -1,0 +1,5 @@
+// repeated variable in same local scope (in same varinit block)
+
+def main() {
+  var x = 42, x = 42 : int;
+}

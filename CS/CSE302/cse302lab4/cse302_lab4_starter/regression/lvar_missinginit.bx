@@ -1,0 +1,5 @@
+// missing initializer
+
+def main() {
+  var x, y : int;
+}

@@ -1,0 +1,37 @@
+type my = struct{s : struct{x : int}};
+type bool_list = struct{val : bool, next : bool_list*};
+
+def main() {
+    var x = alloc my[1] : my*;
+    x -> s.x = 5;
+    print(x -> s.x);
+    print((*x).s.x);
+
+    var list = alloc bool_list[3] : bool_list*;
+    list -> val = true;
+    list[1].val = false;
+    print(list[1].val);
+    list[2].val = true;
+
+    list -> next = &list[1];
+    list -> next -> next = &list[2];
+    print(list->next->val);
+
+    if (!list->next->val) {
+        if (list -> next -> next -> val && list -> val) {
+            print(list -> next -> next -> val);
+        }
+    }
+    if (list -> next -> next -> val) {
+        print(true);
+    }
+    else {
+        print(false);
+    }
+
+    var arr = 0 : bool[10];
+    print(arr[0]);
+    if (arr[1] || !arr[0]) {
+        print(true);
+    }
+}

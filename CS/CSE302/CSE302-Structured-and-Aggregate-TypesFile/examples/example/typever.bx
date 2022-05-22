@@ -1,0 +1,7 @@
+type my = int;
+
+def main()
+{
+    var x = 0 : my;
+    print(x);
+}

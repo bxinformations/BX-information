@@ -1,0 +1,21 @@
+type list = struct {val : int, next : list*};
+type pint = int*;
+
+def main() {
+    var xp = alloc int[1] : pint;
+    var yp = 5 : int;
+
+    xp = &yp;
+    print(*xp);
+
+    var x = 0 : list;
+    x.val = 5;
+
+    var y = alloc list[1] : list*;
+    y -> val = 10;
+    print(y->val);
+
+    x.next = y;
+
+    print(x.next->val);
+}

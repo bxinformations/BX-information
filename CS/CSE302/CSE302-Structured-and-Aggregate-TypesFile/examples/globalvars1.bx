@@ -1,0 +1,7 @@
+var x = 1 : int;
+
+def main(){
+    print(x);
+    var x = false : bool;
+    print(x);
+}

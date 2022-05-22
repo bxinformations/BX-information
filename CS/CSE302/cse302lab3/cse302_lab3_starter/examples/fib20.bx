@@ -1,0 +1,13 @@
+def main() {
+  var count = 20 : int;
+  var x = 0 : int;
+  var y = 1 : int;
+  var z = 0 : int;
+  while (count > 0) {
+    count = count - 1;
+    print(x);
+    z = x + y;
+    x = y;
+    y = z;
+  }
+}

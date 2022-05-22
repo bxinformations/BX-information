@@ -1,0 +1,17 @@
+def main() {
+  var x = 0 : int;
+  var y = 0 : int;
+  var z = 0 : int;
+
+  x = 10;
+  y = 42;
+  z = -100;
+  print(x & y);
+  print(x & z);
+  print(x | y);
+  print(x | z);
+  print(x ^ y);
+  print(x ^ z);
+  print(~x);
+  print(~z);
+}

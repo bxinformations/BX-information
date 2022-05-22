@@ -1,0 +1,6 @@
+// repeated declaration of the same gvar
+
+def main() { }
+
+var x = 42 : int;
+var x = -42 : int;

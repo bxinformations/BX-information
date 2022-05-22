@@ -1,0 +1,34 @@
+.bg {
+    text-align: center;
+    background-color: yellow;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.os{
+    display: inline-block;
+    width: 200px;
+}
+
+.os {
+    height: 60px;
+}
+
+.is {
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+    text-align: center;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+
+.bg:hover .is {
+    display: block;
+}

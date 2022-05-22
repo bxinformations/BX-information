@@ -1,0 +1,46 @@
+def check(arr : bool*, n : int) : bool {
+    var i = 0 : int;
+    while (i < n) {
+        if (arr[i]) {
+            return false;
+        }
+        i = i + 1;
+    }
+    arr[n - 1] = true;
+    return true;
+}
+
+def main() {
+    var x = true : bool;
+    var xp = &x : bool*;
+
+    print(x);
+    print(*xp);
+
+    x = false;
+    print(x);
+    print(*xp);
+
+    *xp = true;
+    print(x);
+    print(*xp);
+    
+    var y = 0 : int;
+    var yp = &y : int*;
+
+    print(y);
+    print(*yp);
+
+    y = 1;
+    print(y);
+    print(*yp);
+
+    print(!*xp);
+
+    print(y == *yp);
+
+    var b = alloc bool[50] : bool*;
+    var n = 20 : int;
+    print(check(b, n));
+    print(check(b, n));
+}

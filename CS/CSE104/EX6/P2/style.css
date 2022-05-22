@@ -1,0 +1,13 @@
+#normal {
+    margin: 2em;
+}
+
+#fixed {
+    position: fixed;
+    top: 3em;
+    left: 10em;
+
+    background-color: yellow;
+    border: solid 2px black;
+    padding: 0.5em;
+}

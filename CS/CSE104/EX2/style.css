@@ -1,0 +1,33 @@
+body {
+    background-color: mediumpurple;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    color: blue;
+}
+
+h2 em{
+    color: gray;
+    font-style: italic;
+}
+
+p em{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+em{
+    font-style: italic;
+}
+
+ol {
+    color: yellow;
+    background-color: black;
+}

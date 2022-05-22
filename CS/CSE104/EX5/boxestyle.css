@@ -1,0 +1,23 @@
+.bg {
+    background-color: lightskyblue;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+
+.b1, .b2 {
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.b1 {
+    background-color: red;
+}
+
+.b2 {
+    background-color: yellow;
+}

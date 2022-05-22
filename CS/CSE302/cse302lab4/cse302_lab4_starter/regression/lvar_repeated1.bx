@@ -1,0 +1,6 @@
+// repeated variable in same local scope
+
+def main() {
+  var x = 42 : int;
+  var x = 42 : int;
+}

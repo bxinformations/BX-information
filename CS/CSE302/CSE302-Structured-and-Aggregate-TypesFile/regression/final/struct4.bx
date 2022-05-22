@@ -1,0 +1,19 @@
+type intlist = struct {
+    data : int,
+    tail : intlist*
+};
+
+def main()
+{
+    var x : intlist;
+    x.data = 1;
+    print(x.data);
+    x -> data = 2;
+    print(x -> data);
+    print(x.data);
+    if (x -> tail == null)
+    {
+        print(1);
+    }
+
+}

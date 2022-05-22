@@ -1,0 +1,12 @@
+c A small, unsatisfiable formula (named "R") from page 4, volume 4,
+c fascicle 6a ("Satisfiability") of Knuth's The Art of Computer Programming.
+c 
+p cnf 4 8
+1 2 -3 0
+2 3 -4 0
+3 4 1 0
+4 -1 2 0
+-1 -2 3 0
+-2 -3 4 0
+-3 -4 -1 0
+-4 1 -2 0

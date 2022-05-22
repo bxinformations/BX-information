@@ -1,0 +1,26 @@
+[
+  {
+    "proc": "@main",
+    "args": [],
+    "body": [
+      { "opcode": "label", "args": ["%.L0", null], "result": null },
+      { "opcode": "const", "args": [10, null], "result": "%0.0" },
+      { "opcode": "const", "args": [20, null], "result": "%1.1" },
+      { "opcode": "const", "args": [2, null], "result": "%3.2" },
+      { "opcode": "mul", "args": ["%3.2", "%0.0"], "result": "%2.4" },
+      { "opcode": "sub", "args": ["%2.4", "%1.1"], "result": "%2.6" },
+      { "opcode": "jz", "args": ["%2.6", "%.L2"], "result": null },
+      { "opcode": "jmp", "args": ["%.L1", null], "result": null },
+      { "opcode": "label", "args": ["%.L1", null], "result": null },
+      { "opcode": "const", "args": [-42, null], "result": "%7.7" },
+      { "opcode": "param", "args": [1, "%7.7"], "result": null },
+      { "opcode": "call", "args": ["@__bx_print_int", 1], "result": null },
+      { "opcode": "jmp", "args": ["%.L2", null], "result": null },
+      { "opcode": "label", "args": ["%.L2", null], "result": null },
+      { "opcode": "const", "args": [42, null], "result": "%6.8" },
+      { "opcode": "param", "args": [1, "%6.8"], "result": null },
+      { "opcode": "call", "args": ["@__bx_print_int", 1], "result": null },
+      { "opcode": "ret", "args": [null, null], "result": null }
+    ]
+  }
+]

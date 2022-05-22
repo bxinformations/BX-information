@@ -1,0 +1,5 @@
+// both sides of an assignment must have the same type
+def main() {
+  var x = 0 : int;
+  x = true;
+}

@@ -1,0 +1,562 @@
+[33mcommit 65046d2c395c70d70e403a555150d38bb269d7dd[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Tue Dec 28 03:20:07 2021 +0100
+
+    pointers structs fixed completly
+
+[33mcommit 06e989a42fbb261d7ffab62cdd67adeaf7a1f2ae[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 23:56:09 2021 +0100
+
+    submit
+
+[33mcommit 6ee2ba3f6e5ada7b45ba03525c18fa4f4de9fc50[m
+Merge: d35dbff a0623a0
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 23:33:38 2021 +0100
+
+    test
+
+[33mcommit d35dbffa6b671caac22e501e8467015656c043b0[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 23:31:55 2021 +0100
+
+    test
+
+[33mcommit a0623a06ca75ab0a83b9cf54b8de4f69b705c7c7[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sun Dec 26 23:23:34 2021 +0100
+
+    work-typeabriv4
+
+[33mcommit 3c5b8aefa701dca33e5ec9aab44784d455e4c617[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 22:48:27 2021 +0100
+
+    testing regression completed
+
+[33mcommit 70354375866991598599d1ca2a6b2e7d9788498a[m
+Merge: 8f6ba3c dd90ab6
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 22:14:03 2021 +0100
+
+    Merge branch 'main' of https://github.com/hyleIndex/CSE302-Structured-and-Aggregate-TypesFile into main
+
+[33mcommit 8f6ba3ce12c5e7e31e4b22c157f4b91748f31033[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 22:13:40 2021 +0100
+
+    regression tested
+
+[33mcommit dd90ab61075baac8152a9eaabc266470bef7724a[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sun Dec 26 22:09:41 2021 +0100
+
+    1
+
+[33mcommit e01fc981f9a178d9fc2f4ec312c50c51d19de8a1[m
+Merge: 78336e2 1fda5a9
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 21:23:02 2021 +0100
+
+    testing
+
+[33mcommit 78336e23df0e2088ea5a7edc8235c9ebe8f73c88[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 21:20:58 2021 +0100
+
+    testing
+
+[33mcommit 1fda5a95cb6235d1fc54cad9991a5b45bccd9cf7[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sun Dec 26 20:53:10 2021 +0100
+
+    1
+
+[33mcommit 71203ad7bb022645497f904677bdbc2669a33601[m
+Author: Lazar Milikic <64690721+Lemmy00@users.noreply.github.com>
+Date:   Sun Dec 26 20:32:40 2021 +0100
+
+    Update README.md
+
+[33mcommit d5ff3a7d16b5e4669f563011fbd13dacb9a45523[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 19:50:45 2021 +0100
+
+    ..
+
+[33mcommit 43c0c0fce955985e08c196db0301b50369c1d5e4[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 19:31:21 2021 +0100
+
+    .,,,
+
+[33mcommit 3d8510f17cf02dfcd293990793f12b14477d170f[m
+Merge: 67c6c7e 4b243d1
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 18:36:41 2021 +0100
+
+    Merge branch 'main' of https://github.com/hyleIndex/CSE302-Structured-and-Aggregate-TypesFile into main
+
+[33mcommit 67c6c7ef2f59441e288755ae162aa279861b8c9b[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 18:36:22 2021 +0100
+
+    ...
+
+[33mcommit 4b243d14210d5bfd6e065a5e50061ff53022af60[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sun Dec 26 18:27:47 2021 +0100
+
+    1
+
+[33mcommit c7d75a37d5778b0f8320001f0aecbbde0953fd7a[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sun Dec 26 18:16:30 2021 +0100
+
+    fixing x64
+
+[33mcommit 41b766a5d782e5f23c284149533cdc0db341e593[m
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Sun Dec 26 17:58:11 2021 +0100
+
+    testing
+
+[33mcommit 9bf4fb928f236b940b4a8e3f6c642982ca9ce0c8[m
+Merge: 69c8d1b 5707f22
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sun Dec 26 17:07:28 2021 +0100
+
+    Merge branch 'main' of https://github.com/hyleIndex/CSE302-Structured-and-Aggregate-TypesFile
+
+[33mcommit 69c8d1b62eaba8cebebeaeb4afba24fcc829d156[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sun Dec 26 17:07:27 2021 +0100
+
+    fix
+
+[33mcommit 5707f2226aea244e950805447fdc62954f5a056f[m
+Author: Lazar Milikic <64690721+Lemmy00@users.noreply.github.com>
+Date:   Sun Dec 26 16:59:32 2021 +0100
+
+    Create README.md
+
+[33mcommit 5e966bb25cedd4587ede9baa42d271db877f4761[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sun Dec 26 16:29:13 2021 +0100
+
+    1
+
+[33mcommit 2cf6958effde0d531c1dc7b30b887a26d263491a[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sun Dec 26 16:23:50 2021 +0100
+
+    1
+
+[33mcommit c50f808d03aa410f268068ebb85c223f3c78e226[m
+Author: Jovana Vukovic <jovanavukovic@Jovanas-MacBook-Pro.local>
+Date:   Sun Dec 26 15:39:30 2021 +0100
+
+    tests
+
+[33mcommit 92a1112bbea2bf80275b488aee4698b4bb8647d3[m
+Author: Jovana Vukovic <jovanavukovic@Jovanas-MacBook-Pro.local>
+Date:   Sun Dec 26 15:02:10 2021 +0100
+
+    fixing
+
+[33mcommit 3d42272beb66046f0277996428c7d7e79e22406a[m
+Author: Jovana Vukovic <jovanavukovic@Jovanas-MacBook-Pro.local>
+Date:   Sun Dec 26 14:41:47 2021 +0100
+
+    type abriviation
+
+[33mcommit 09cdfd1568903969150d7a477344aab8978de0d5[m
+Author: Jovana Vukovic <jovanavukovic@Jovanas-MacBook-Pro.local>
+Date:   Sun Dec 26 14:11:04 2021 +0100
+
+    type abriviation
+
+[33mcommit 93a2c8d84e205824cc95c163f68664cc319688ff[m
+Author: hyleindex <ypxrain@outlook.com>
+Date:   Sat Dec 25 23:16:45 2021 +0100
+
+    type
+
+[33mcommit 561099632fdc209350b451dae101563c65228545[m
+Author: Jovana Vukovic <jovanavukovic@Jovanas-MacBook-Pro.local>
+Date:   Sat Dec 25 22:17:14 2021 +0100
+
+    types abrivaiation
+
+[33mcommit 3ef08dbf1262849aa97f23d2f0aa37c46e621740[m
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Sat Dec 25 19:48:23 2021 +0100
+
+    types
+
+[33mcommit e1862bc6c5ac6c86b69d1f8371ea59ff5706975b[m
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Sat Dec 25 19:46:10 2021 +0100
+
+    types
+
+[33mcommit 0ec6faf8ca444e06bd500ba73cf8cdc0881a50ff[m
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Sat Dec 25 17:00:50 2021 +0100
+
+    typechecking adding
+
+[33mcommit f659ecb66299e7e6ac8fa3b7e8b3b8ce0b228a29[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sat Dec 25 04:15:57 2021 +0100
+
+    1
+
+[33mcommit 4de3306bb2c72c83f31fe700125984f7c73ce4e7[m
+Merge: 91900ea cde2af7
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sat Dec 25 04:05:58 2021 +0100
+
+    Merge branch 'main' of https://github.com/hyleIndex/CSE302-Structured-and-Aggregate-TypesFile
+
+[33mcommit 91900eab0d20eba55c848bcbcb060df8fd4a7eb3[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sat Dec 25 04:05:30 2021 +0100
+
+    1
+
+[33mcommit cde2af7893717438e124718c3dfcf41428b5ec20[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sat Dec 25 04:00:49 2021 +0100
+
+    strcuts fixed
+
+[33mcommit 6d4cd1a18a9334f6156ffb5c844c46d362b751cc[m
+Merge: 76e8cf7 376a2a3
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sat Dec 25 03:17:55 2021 +0100
+
+    structs idk
+
+[33mcommit 76e8cf7e3127eca55490f4f3b98fd3d850198ffe[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sat Dec 25 03:16:08 2021 +0100
+
+    structs
+
+[33mcommit 376a2a3b6d2191e77181e4ea0cf71df6268902f6[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sat Dec 25 03:15:30 2021 +0100
+
+    1
+
+[33mcommit 98c7199c13da0adb30bc4e051955b4557cf02ef3[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sat Dec 25 03:07:26 2021 +0100
+
+    fixing structs
+
+[33mcommit c0e4f4a4f4b38c89bb48decff83035f8943dc6a1[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sat Dec 25 03:05:16 2021 +0100
+
+    1
+
+[33mcommit 5aae5def6844c969afa3fb945259720fe4fce82e[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sat Dec 25 02:43:02 2021 +0100
+
+    strcut glob
+
+[33mcommit 625ecac1aae3e1653f79230f56b6d861ca573d21[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sat Dec 25 02:20:36 2021 +0100
+
+    strcuts fixing
+
+[33mcommit fa0a1b0459ebe00ce891c11ff39ce45c6faafa91[m
+Merge: 1d0caaf 4d82d87
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sat Dec 25 01:21:12 2021 +0100
+
+    Merge branch 'main' of https://github.com/hyleIndex/CSE302-Structured-and-Aggregate-TypesFile into main
+
+[33mcommit 4d82d879872e4be0cb1fbcb7d1473ad7ad734abe[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Sat Dec 25 01:19:00 2021 +0100
+
+    1
+
+[33mcommit 1d0caaf5dc21955f0972c5f77122c32e04b91e0a[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sat Dec 25 01:02:48 2021 +0100
+
+    adding glob
+
+[33mcommit c2ca10d9aabbc22db36b6748e56146fdaaeede65[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Sat Dec 25 00:38:03 2021 +0100
+
+    adding glob
+
+[33mcommit 6d1913e8c695bec0b6613044916f8aadcfd996ff[m
+Merge: 6a34554 7686a65
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 22:45:15 2021 +0100
+
+    null thing
+
+[33mcommit 6a345548064ca8c356d1177ccf86f1f994f0b0ec[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 22:39:24 2021 +0100
+
+    null problem
+
+[33mcommit 7686a655bc6c1edd2ddb53608c1084cd964e4ae5[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 20:52:49 2021 +0100
+
+    1
+
+[33mcommit 794122f7a889823daf40c5b2916c97f772239d53[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 20:45:32 2021 +0100
+
+    reference errors
+
+[33mcommit a6e23fc9233b243c80d442515bdb10ed985eec74[m
+Merge: 79406df ef594d9
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 20:42:58 2021 +0100
+
+    Merge branch 'main' of https://github.com/hyleIndex/CSE302-Structured-and-Aggregate-TypesFile into main
+
+[33mcommit 79406df854164456f87a2aae6d70d7fbfc4dc11e[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 20:42:30 2021 +0100
+
+    fixing reference
+
+[33mcommit ef594d94a1d60ca8031a18c6c96673ee1585f9d5[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 20:41:47 2021 +0100
+
+    1
+
+[33mcommit c9cc724d05115e4449a5577daeb957da330bbf3e[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 20:20:38 2021 +0100
+
+    swap
+
+[33mcommit ca8a3c9c050a0a29b68a4a2555285cde2102c868[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 19:56:11 2021 +0100
+
+    ...
+
+[33mcommit 78891469f6269bc9b26ed29e82637e7234363459[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 19:52:52 2021 +0100
+
+    1
+
+[33mcommit c5bd0344866bf85f55a7a752f6fc110790189cce[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 19:39:24 2021 +0100
+
+    1
+
+[33mcommit 637cd8bb4fa0beef3b0283a42c047126d32d4d4e[m
+Merge: 74ac675 534f98b
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 19:26:43 2021 +0100
+
+    Merge branch 'main' of https://github.com/hyleIndex/CSE302-Structured-and-Aggregate-TypesFile into main
+
+[33mcommit 74ac675c9cefa15ad3ccf907c0cfa43e1aee2d77[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 19:26:16 2021 +0100
+
+    swap fixing
+
+[33mcommit 534f98b50a1fabed35367692e53bc2a179352116[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 19:17:44 2021 +0100
+
+    1
+
+[33mcommit 20ebd07af1ca9875333de7a4190a821eee9cce6c[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 19:03:39 2021 +0100
+
+    swap fixing
+
+[33mcommit 3bff68b35f20989be598dd2a4a94270f45fa3563[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 18:44:05 2021 +0100
+
+    1
+
+[33mcommit a619daf3784b90dc021b2d767904c4b211e00fc6[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 18:35:53 2021 +0100
+
+    fix
+
+[33mcommit 7937bd9c607f0cfb98dded9fcfd8bfbac219335d[m
+Merge: 8c294c0 558b86c
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 17:58:56 2021 +0100
+
+    stuck at parsing
+
+[33mcommit 8c294c0b94d172d5cb5e47c3b666ef1b60cacf43[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 15:05:26 2021 +0100
+
+    stuff fixed
+
+[33mcommit 558b86cfbf016f9db97e472396f3228be93b4ce2[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 15:02:44 2021 +0100
+
+    fix bug
+
+[33mcommit 7eb8e9bff6f8d42f0d7caa4c0a576d087cb8a7ec[m
+Author: maayaneattias <maayane-lea.attias@polytechnique.edu>
+Date:   Fri Dec 24 14:55:35 2021 +0100
+
+    Alloc fixed
+    
+    Changed alloc in the parser so it works for alloc int[2] and alloc int[y]
+
+[33mcommit ae34ef234bdb7abf65d2d4dddac8677a8e5b8c7f[m
+Author: maayaneattias <maayane-lea.attias@polytechnique.edu>
+Date:   Fri Dec 24 14:34:34 2021 +0100
+
+    TypeChecking for alloc fixed
+
+[33mcommit 721623e42b7aedd5d04cfbb87d2602aa7c91f342[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 14:06:46 2021 +0100
+
+    1
+
+[33mcommit b00be090834265c4da0af46904e19c1ac90062b6[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 13:47:36 2021 +0100
+
+    1
+
+[33mcommit 40bb90c8daa288090b1b4ef9a7e73ac4f3ee7577[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 13:40:01 2021 +0100
+
+    1
+
+[33mcommit 445bcbb92a69c119db94253c1b6719da2bb3181e[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 13:33:59 2021 +0100
+
+    debugging
+
+[33mcommit 5098ecb370fd4034273e96f54abb7b404c4c7e77[m
+Merge: 67aefb8 ed48512
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 13:33:14 2021 +0100
+
+    Merge branch 'main' of https://github.com/hyleIndex/CSE302-Structured-and-Aggregate-TypesFile into main
+
+[33mcommit 67aefb8f41b63125c40acba19d77e3aca7e5cfee[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 13:32:05 2021 +0100
+
+    debugging
+
+[33mcommit ed48512ae1bb35ee4a2e40de6b97679dcc3de055[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 12:55:43 2021 +0100
+
+    1
+
+[33mcommit 202c13e9132b535b0fc97426d2e21a21ba6072c1[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 09:00:41 2021 +0100
+
+    testing phase
+
+[33mcommit ec7163c636ff8ee3dc61054070999d5b5b04b28d[m
+Author: Lazar Milikic <lazar.milikic@saumon.polytechnique.fr>
+Date:   Fri Dec 24 06:24:21 2021 +0100
+
+    type checking
+
+[33mcommit 8bb9b7b95168baac8fdd9c07e486fe9ae6db540c[m
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Fri Dec 24 04:05:26 2021 +0100
+
+    testing
+
+[33mcommit 2e401c2cbcbb58669ec067585253ef534c42c965[m
+Merge: 31b6fb4 52ae817
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Fri Dec 24 03:27:12 2021 +0100
+
+    Merge branch 'main' of https://github.com/hyleIndex/CSE302-Structured-and-Aggregate-TypesFile into main
+
+[33mcommit 31b6fb433e3c39cc0b590b853993ef570c0079f1[m
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Fri Dec 24 03:27:04 2021 +0100
+
+    tac only type arbivations missing
+
+[33mcommit 52ae81765d868800ca4ce9af1b35781d23bcd3f9[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 02:55:29 2021 +0100
+
+    Update create_ast.py
+
+[33mcommit b240cc9cd20ebb86770d52a803a5cfc829e56c8d[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Fri Dec 24 02:54:19 2021 +0100
+
+    type checking
+
+[33mcommit fc2fb0ff1672219669d8c3edcea49c4c1fb6ec92[m
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Thu Dec 23 21:37:49 2021 +0100
+
+    tac almost
+
+[33mcommit 61e4934d91b288037df87ae31fd33d7f5085210b[m
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Thu Dec 23 19:37:02 2021 +0100
+
+    tac up to struct
+
+[33mcommit d10902c0ab7814fb626ea83d59feff193945bb34[m
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Thu Dec 23 17:58:52 2021 +0100
+
+    tac up to struct
+
+[33mcommit 18d766a31df2ede6b9b67c206abab084a5684943[m
+Merge: 2fd6cca 3303e43
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Thu Dec 23 05:24:23 2021 +0100
+
+    Merge branch 'main' of https://github.com/hyleIndex/CSE302-Structured-and-Aggregate-TypesFile into main
+
+[33mcommit 2fd6ccab49cf6086974ed7bf4ce0cb5d9846f542[m
+Author: Lemmy00 <64690721+Lemmy00@users.noreply.github.com>
+Date:   Thu Dec 23 05:23:41 2021 +0100
+
+    same fixes plus tac close to be done
+
+[33mcommit 3303e437b72c8d26aba4fe49aaed3f4866b563ff[m
+Author: hyleIndex <ypxrain@outlook.com>
+Date:   Thu Dec 23 00:58:46 2021 +0100
+
+    test examples

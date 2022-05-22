@@ -1,0 +1,5 @@
+def f(){}
+
+def main() {
+    var x = f() : int; 
+}

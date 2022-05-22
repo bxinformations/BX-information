@@ -1,0 +1,19 @@
+def f1(x : int) : int {
+    return x;
+}
+
+def f2(x : bool) {
+    if (!x) {
+        return;
+    }
+    print(x);
+}
+
+def main() {
+    1 + 5;
+    true == false;
+    f1(5);
+    f2(false);
+    print(1);
+    f2(true);
+}

@@ -1,0 +1,22 @@
+type fibtree = struct {
+    val : int,
+    prev : fibtree*[2]
+};
+
+def make_fibtree(n : int) : fibtree* {
+    var ret = alloc fibtree[1] : fibtree*;
+    if (n == 0) {
+        ret->val = 0; // actually redundant
+    } else if (n == 1) {
+        ret->val = 1;
+    } else {
+        ret->prev[0] = make_fibtree(n - 1);
+        ret->prev[1] = make_fibtree(n - 2);
+        ret->val = ret->prev[0]->val + ret->prev[1]->val;
+    }
+    return ret;
+}
+def main() {
+    var ft = make_fibtree(20) : fibtree*;
+    print(ft->val);
+}

@@ -1,0 +1,5 @@
+type my = int;
+type my1 = struct{x : tvoj};
+type my2 = my1;
+
+def main() {}

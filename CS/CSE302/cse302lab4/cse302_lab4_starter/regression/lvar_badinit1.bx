@@ -1,0 +1,5 @@
+// initializer of wrong type
+
+def main() {
+  var x = !true : int;
+}

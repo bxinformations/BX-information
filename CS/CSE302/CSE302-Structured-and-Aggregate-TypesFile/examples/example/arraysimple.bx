@@ -1,0 +1,7 @@
+def main(){
+    var x = 0 : int[20];
+    x[0] = 10;
+    x[1] = 5;
+    var y = x[0] + x[1] : int;
+    print(y);
+}

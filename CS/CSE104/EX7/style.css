@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(135, 206, 235, 0.5);
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: fixed;
+    top: 1em;
+    right: 2em;
+}
+
+a:hover {
+    background-color: cyan;
+}
+
+section{
+    margin: 5em;
+
+}
+
+footer {
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0em;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer p {
+    margin-left: 30px;
+}

@@ -1,0 +1,38 @@
+# Peixin You peixin.you 
+
+    mrmovq len, %rcx
+    irmovq $-1, %rbx
+    mrmovq result, %rax
+    irmovq $0, %rdx
+    irmovq $0, %r8
+    irmovq $8, %r9
+Lloop:
+    subq %rdx, %rcx
+    je Lend
+    addq %rbx, %rcx
+    mrmovq src(%r8), %rsi
+    xorq %rsi, %rax
+    rmmovq %rsi, dest(%r8)
+    addq %r9, %r8
+    jmp Lloop
+Lend:
+    rmmovq %rax, result
+    halt
+.align 8
+# Source block
+src:
+        .quad 0x00a
+        .quad 0x0b0
+        .quad 0xc00
+
+# Destination block
+dest:
+        .quad 0x111
+        .quad 0x222
+        .quad 0x333
+
+len:
+        .quad 0x003
+
+result:
+        .quad 0x000

@@ -1,0 +1,18 @@
+def opp(x : bool) : bool {
+    return !x;
+}
+
+def main() {
+    var x = opp(true) : bool;
+    
+    if (opp(x)) {
+        print(1);
+    }
+
+    x = opp(x);
+    while (x) {
+        print(x);
+        x = opp(x);
+        print(x);
+    }
+}

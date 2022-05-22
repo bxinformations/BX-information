@@ -1,0 +1,15 @@
+// testing if-elsif chains
+def main() {
+  var x = 833779 : int;
+  if (x % 2 == 0) {
+    print(2);
+  } else if (x % 3 == 0) {
+    print(3);
+  } else if (x % 5 == 0) {
+    print(5);
+  } else if (x % 7 == 0) {
+    print(7);
+  } else if (x % 11 == 0) {
+    print(11);
+  } // no else
+}

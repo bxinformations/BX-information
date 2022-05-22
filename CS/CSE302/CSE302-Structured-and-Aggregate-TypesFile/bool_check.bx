@@ -1,0 +1,11 @@
+def main() {
+    var x = true : bool;
+    var xp = &x : bool*;
+
+    print(x);
+    print(*xp);
+
+    x = false;
+    print(x);
+    print(*xp);
+}

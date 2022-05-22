@@ -1,0 +1,17 @@
+type mys = struct{val : int, next : mys1*};
+type mys1 = mys;
+type mys2 = mys1;
+
+def main() {
+    var x = 0 : mys2;
+    var y = 0 : mys1;
+    var z = 0 : mys;
+    
+    x.val = 3;
+    y.val = 7;
+    z.val = 8;
+
+    x.next = &y;
+
+    print(x.next -> val);
+}

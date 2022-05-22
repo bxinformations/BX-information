@@ -1,0 +1,13 @@
+def main() {
+    var x = 5 : int;
+    if (x > 1) {
+        x = x + 2;
+        print(x);
+
+        var x = 1 : int;
+        print(x);
+        x = x - 1;
+        print(x);
+    }
+    print(x + 1);
+}

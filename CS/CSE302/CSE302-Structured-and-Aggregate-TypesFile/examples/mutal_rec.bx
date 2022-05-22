@@ -1,0 +1,27 @@
+var res = false : bool;
+
+def is_even(n : int) : bool {
+    if (n == 0) {
+        return true;
+    }
+    else if (n == 1) {
+        return false;
+    }
+    res = is_odd(n - 1);
+    return res;
+}
+
+def is_odd(n : int) : bool {
+    res = is_even(n - 1);
+    return res;
+}
+
+def main() {
+    var x = 20 : int;
+    var res = false : bool;
+    while (x > 0) {
+        x = x - 1;
+        res = is_even(x);
+        print(res);
+    }
+}

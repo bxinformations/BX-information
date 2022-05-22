@@ -1,0 +1,49 @@
+var z = 0 : struct {list : int [10], number : int, pointer : int *};
+
+type my_bool = bool;
+type my_str = struct { f : int, g : bool, my_list : int[10] };
+
+
+def f(x : my_str*) : my_bool {
+    x -> g = true;
+    
+    var varX = 100 : int;
+    x -> my_list[1] = x -> my_list[2] - varX;
+
+    return x -> g;
+} 
+
+def main() {
+    var y = 0 : struct { f : int, g : bool, my_list : int[10] };
+    print(y.f);
+    print(y.g);
+
+    y.f = 5;
+    y.g = true;
+
+    if (y.g) {
+        print(y.f);
+    }
+    else {
+        print(false);
+    }
+
+    print(z.list[5]);
+    y.my_list[2] = 10;
+    print(y.my_list[2]);
+
+    y.g = false;
+    print(f(&y) || false);
+
+    print(y.g);
+
+    if (!y.g || false) {
+        print(false);
+    }
+    else {
+        print(true);
+    }
+
+    print(y.my_list[1]);
+
+}

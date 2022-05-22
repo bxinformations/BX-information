@@ -1,0 +1,4 @@
+def main() {
+    var z = 5 : struct {list : int [10], number : int, pointer : int *, b : bool};
+
+}

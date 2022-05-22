@@ -1,0 +1,8 @@
+def f(){}
+
+def main() {
+    var x = false : bool;
+    if (x || f()) {
+        print(x);
+    }
+}

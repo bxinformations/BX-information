@@ -1,0 +1,24 @@
+def main() {
+  var x = 10 : int;
+  var y = 20 : int;
+
+  if (x == y) { print(0); } // false
+  if (x != y) { print(1); } // true
+  if (x * 2 == y) { print(2); } // true
+  if (true || true) { print(3); } // true
+  if (1 == 1 || false) { print(4); } // true
+  if (x < y) { print(5); } // true
+  if (x > y) { print(6); } // false
+  if (x < x) { print(7); } // false
+  if (x <= y) { print(8); } // true
+  if (x >= y) { print(9); } // false
+  if (x <= x) { print(10); } // true
+  if (x <= y || y <= x) { print(11); } // true
+  if (x == x) { print(12); } // true
+  if (true == true) { print(13); } // true
+  if (true == false) { print(14); } // false
+  if (false == false) { print(15); } // true
+  if (false == true) { print(16); } // false
+  if (! (x == x)) { print(17); } // false
+  if (! (x != x)) { print(18); } // true
+}

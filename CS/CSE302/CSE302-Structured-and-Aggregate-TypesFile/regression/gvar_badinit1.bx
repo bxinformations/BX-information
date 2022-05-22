@@ -1,0 +1,5 @@
+// global variable initialized with illegal values
+
+def main() { }
+
+var x = 10 + 20 : int;

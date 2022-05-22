@@ -1,0 +1,17 @@
+def a(x : int) : int {
+	if (x == 0) {
+        return 0;
+    }
+    return b(x - 1);
+}
+
+def b(x : int) : int {
+    print(x);
+    x = a(x);
+    return x;
+}
+
+def main() {
+    var x = 10 : int;
+    a(x); 
+}

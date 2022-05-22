@@ -1,0 +1,40 @@
+type list = struct {val : int, next : list*};
+type pint = int**;
+type newS = struct{val : int*, next : list*};
+
+def main() {
+    var x = 0 : list;
+    x.val = 5;
+
+    var y = 0 : list;
+    y.val = 2;
+
+    x.next = &y;
+
+
+    print(x.next->val);
+
+    x.next->val = 11;
+    print(x.next->val);
+
+    var p = alloc pint[1] : pint*;
+    ***p = 3;
+    print(***p);
+
+    var sl = 0 : list[10][10][5];
+    sl[5][2][4].val = 4;
+
+    print(sl[5][2][4].val);
+
+    sl[5][2][4].next = &x;
+    print(sl[5][2][4].next->val);
+    print(sl[5][2][4].next->next->val);
+
+    var test = 0 : newS;
+    test.val = **p;
+    print(*test.val);
+
+    test.next = &sl[5][2][4];
+    print(test.next -> next -> next -> val);
+    print(y.val);
+}

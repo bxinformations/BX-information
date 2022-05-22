@@ -1,0 +1,12 @@
+def f(x : int){
+    var b = x == 0: bool;
+    if (b) {
+        if (b) {
+            print(x);
+        }
+    }
+}
+
+def main() {
+    f(0);
+}

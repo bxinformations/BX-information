@@ -1,0 +1,8 @@
+type t1 = struct
+{ f1 : int, f2 : t2* };
+type t2 = struct
+{ f1 : int, f2 : t1* };
+
+var t1 = 0 : int;
+
+def main() {}

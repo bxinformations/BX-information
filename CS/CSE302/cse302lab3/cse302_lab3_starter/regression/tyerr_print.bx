@@ -1,0 +1,4 @@
+// print must have an integer typed expression as argument
+def main() {
+  print(false);
+}

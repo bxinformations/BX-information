@@ -1,0 +1,7 @@
+def main() {
+    var x = 0 : int;
+    var y = x * 5 : int;
+    var z = (x + 5) / - y : int;
+
+    x = (x + (5 * z))
+}

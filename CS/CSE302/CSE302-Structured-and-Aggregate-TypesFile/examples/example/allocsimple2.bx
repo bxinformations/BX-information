@@ -1,0 +1,6 @@
+var a = alloc int[5] : int*;
+
+def main() {
+    a[0]= 5;
+    print(a[0] + 10);
+}

@@ -1,0 +1,7 @@
+// bad return type
+
+def main() { }
+
+def get() : int {
+  return true;
+}

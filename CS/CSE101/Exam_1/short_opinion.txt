@@ -1,0 +1,8 @@
+CNN - Bernie Sanders - 33.0
+FOX - Bernie Sanders - 1.4
+FOX - Elizabeth Warren - 12.3
+MSNBC - Bernie Sanders - 24.1
+MSNBC - Elizabeth Warren - 25.7
+CNN - Elizabeth Warren - 25.0
+MSNBC - Cory Booker - 4.3
+CNN - Kamala Harris - 3.2

@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    background-color: tomato;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    padding: 10px
+}
+
+p:hover {
+    background-color: chartreuse;
+}
+
+p:active {
+    border: 10px solid red;
+    background-color: yellow;
+}

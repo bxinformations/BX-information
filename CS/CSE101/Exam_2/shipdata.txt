@@ -1,0 +1,4 @@
+Alpha, Napoli = 1/3, Barcelona = 4/3, Marseille = 6/3
+Beta, Napoli = 2/3, Marseille = 5/3
+Penguino, Panama = 10/9, San Diego = 15/9, Vancouver = 20/9
+Fat Crocodile, Porto = 20/8, Panama = 1/9, San Diego = 11/9, Vancouver = 14/9

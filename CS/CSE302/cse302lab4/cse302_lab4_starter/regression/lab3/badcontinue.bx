@@ -1,0 +1,7 @@
+// break outside of any loop
+def main() {
+  if (10 == 20) {
+    continue;
+  }
+  print(-1);
+}

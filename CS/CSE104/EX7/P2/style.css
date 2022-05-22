@@ -1,0 +1,47 @@
+body {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#Head {
+    text-align: center;
+    background-color: cyan;
+    font-weight: bold;
+    width: 600px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.Place {
+    position: relative;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.Text {
+    margin: auto;
+    color: white;
+}
+
+.Text p {
+    font-style: italic;
+}
+
+.Place:hover .container{
+    top: 0;
+    left: 50%;
+    
+}

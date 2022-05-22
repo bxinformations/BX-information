@@ -1,0 +1,12 @@
+SIZE 5
+ROW #.#.#
+ROW .....
+ROW #.#.#
+ROW #.#..
+ROW ...#.
+CLUE (0,1) down: A (5)
+CLUE (0,3) down: B (4)
+CLUE (1,0) across: C (5)
+CLUE (3,3) across: D (2)
+CLUE (3,4) down: E (3)
+CLUE (4,0) across: F (3)

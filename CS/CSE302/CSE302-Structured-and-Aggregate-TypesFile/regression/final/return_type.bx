@@ -1,0 +1,10 @@
+type arr = int[10];
+
+def f() : arr {
+    var x = 0 : arr;
+    return x;
+}
+
+def main() {
+    f();
+}

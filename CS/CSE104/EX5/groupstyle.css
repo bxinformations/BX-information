@@ -1,0 +1,16 @@
+.wrapper {
+    padding: 10px;
+}
+
+.wrapper:hover {
+    background-color: black;
+    color: white;
+}
+
+div {
+    padding: 6px;
+}
+
+div:hover {
+    color: yellow;
+}

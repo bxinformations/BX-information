@@ -1,0 +1,26 @@
+[
+  {
+    "proc": "@main",
+    "args": [],
+    "body": [
+      { "opcode": "label", "args": ["%.L25555"], "result": null },
+      { "opcode": "const", "args": [10], "result": "%0" },
+      { "opcode": "const", "args": [20], "result": "%1" },
+      { "opcode": "const", "args": [2], "result": "%3" },
+      { "opcode": "copy", "args": ["%0"], "result": "%4" },
+      { "opcode": "mul", "args": ["%3", "%4"], "result": "%2" },
+      { "opcode": "copy", "args": ["%1"], "result": "%5" },
+      { "opcode": "sub", "args": ["%2", "%5"], "result": "%2" },
+      { "opcode": "jz", "args": ["%2", "%.L0"], "result": null },
+      { "opcode": "label", "args": ["%.L1"], "result": null },
+      { "opcode": "const", "args": [-42], "result": "%7" },
+      { "opcode": "param", "args": [1, "%7"], "result": null },
+      { "opcode": "call", "args": ["@__bx_print_int", 1], "result": null },
+      { "opcode": "label", "args": ["%.L0"], "result": null },
+      { "opcode": "const", "args": [42], "result": "%6" },
+      { "opcode": "param", "args": [1, "%6"], "result": null },
+      { "opcode": "call", "args": ["@__bx_print_int", 1], "result": null },
+      { "opcode": "ret", "args": [null], "result": null }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+// braces are required for the else-branch of an if-else
+def main() {
+  var x = 20 : int;
+  if (x % 2 == 0) { }
+  else print(42);
+}

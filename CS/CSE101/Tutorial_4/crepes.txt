@@ -1,0 +1,7 @@
+wheat flour , 250
+	 egg,4 
+
+milk, 50
+  butter ,  50  
+salt,1
+

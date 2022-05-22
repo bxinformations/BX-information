@@ -1,0 +1,7 @@
+def print42() {
+    print(42);
+}
+
+def main() {
+    print42();
+}

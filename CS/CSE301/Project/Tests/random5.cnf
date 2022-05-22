@@ -1,0 +1,8 @@
+c This is a random 3-CNF formula with 5 variables and 4 clauses.
+c It is satisfiable.
+c 
+p cnf 5 4
+4 -3 -5 0
+-3 -1 -2 0
+1 -4 -5 0
+-5 3 4 0

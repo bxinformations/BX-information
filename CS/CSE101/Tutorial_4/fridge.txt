@@ -1,0 +1,10 @@
+milk,500
+egg,3
+milk,200
+cornstarch,50
+salt,5
+milk,100
+butter,100
+salt,5
+sugar,200
+vanilla,20

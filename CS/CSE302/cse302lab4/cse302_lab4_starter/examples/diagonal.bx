@@ -1,0 +1,19 @@
+// prefix sums of the natural numbers using nested loops
+def main() {
+  var count = 20 : int;
+  var x = 0 : int;
+  var sum = 0 : int;
+  while (true) {
+    if (count == 0) { break; }
+    print(count);
+    x = 1;
+    sum = 0;
+    while (true) {
+      if (x > count) { break; }
+      sum = sum + x;
+      x = x + 1;
+    }
+    print(sum);
+    count = count - 1;
+  }
+}

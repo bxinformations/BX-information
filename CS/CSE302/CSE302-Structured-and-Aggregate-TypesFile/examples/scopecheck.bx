@@ -1,0 +1,23 @@
+var x = false : bool;
+
+def fx() : bool {
+    return x;
+}
+
+def main() {
+    print(x);
+    print(fx());
+    var x = 5 : int;
+    if (x > 1) {
+        x = x + 2;
+        print(x);
+
+        var x = 1 : int;
+        print(x);
+        x = x - 1;
+        print(x);
+    }
+    print(x + 1);
+    var z = false || !fx() : bool;
+    print(z);
+}

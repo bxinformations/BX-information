@@ -1,0 +1,16 @@
+def main()
+{
+    var x = 0 : int[20];
+    x[0] = 1;
+    x[1] = 1;
+    var i = 2 : int;
+    while (true)
+    {
+        print(i);
+        if (i >= 20) {break;}
+        x[i] = x[i - 1] + x[i - 2;
+        print(x[i]);
+        i = i + 1;
+    }
+    print(x[20]);
+}

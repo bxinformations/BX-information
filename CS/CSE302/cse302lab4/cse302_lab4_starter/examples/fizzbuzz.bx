@@ -1,0 +1,26 @@
+// fizz buzz
+// print numbers from 0 to 100,
+//   but replace every multiple of 3 with 333
+//           and every multiple of 5 with 555
+//   except replace multiples of both 3 and 5 with 151515
+
+def fizzbuzz(cur, last : int) {
+  while (cur <= last) {
+    if (cur % 3 == 0) {
+      if (cur % 5 == 0) {
+         print(151515);
+      } else {
+         print(333);
+      }
+    } else if (cur % 5 == 0) {
+      print(555);
+    } else {
+      print(cur);
+    }
+    cur = cur + 1;
+  }
+}
+
+def main() {
+  fizzbuzz(0, 100);
+}

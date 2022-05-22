@@ -1,0 +1,14 @@
+butter,600
+wheat flour,140
+milk,160
+cornstarch,800
+cream cheese,700
+cream,600
+vanilla,6000
+brown sugar,1500
+salt,100
+egg,30
+sugar,120
+yeast,8000
+almond,2500
+

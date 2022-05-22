@@ -1,0 +1,6 @@
+egg,2
+milk,500
+sugar,150
+cornstarch,50
+vanilla,15
+

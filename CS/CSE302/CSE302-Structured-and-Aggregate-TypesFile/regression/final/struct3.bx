@@ -1,0 +1,7 @@
+type intlist = struct {
+    data : int,
+    tail : intlist*,
+};
+
+def main()
+{}

@@ -1,0 +1,113 @@
+#/* $begin revcopy-ys */
+##################################################################
+# revcopy.ys
+#
+# Copy a src block of len words to dst in reverse order.
+# Return the number of positive words (>0) contained in src.
+#
+# TODO: Peixin You peixin.you
+#
+# Describe how and why you modified the baseline code.
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+ncopy:
+
+##################################################################
+# You can modify this portion
+	# Loop header
+	xorq %rax, %rax		# count = 0;
+	andq %rdx, %rdx		# len <= 0?
+	jle Done		# if so, goto Done:
+
+ 	rrmovq %rdx, %r11       # r11 = len
+	iaddq $-1, %r11
+	addq %r11, %r11
+	addq %r11, %r11
+	addq %r11, %r11
+	addq %r11, %rsi
+	jmp Test		# if so, goto Test:
+
+Loop8:
+	mrmovq 0(%rdi), %r8
+	mrmovq 8(%rdi), %r9
+	mrmovq 16(%rdi), %r10
+	mrmovq 24(%rdi), %r11
+	mrmovq 32(%rdi), %r12
+	mrmovq 40(%rdi), %r13
+	mrmovq 48(%rdi), %r14
+	mrmovq 56(%rdi), %rbx
+
+	rmmovq %r8, 0(%rsi)
+	rmmovq %r9, -8(%rsi)
+	rmmovq %r10, -16(%rsi)
+	rmmovq %r11, -24(%rsi)
+	rmmovq %r12, -32(%rsi)
+	rmmovq %r13, -40(%rsi)
+	rmmovq %r14, -48(%rsi)
+	rmmovq %rbx, -56(%rsi)
+
+Loop0:
+	andq %r8, %r8
+	jle Loop1
+	iaddq $1, %rax
+Loop1:
+	andq %r9, %r9
+	jle Loop2
+	iaddq $1, %rax
+Loop2:
+	andq %r10, %r10
+	jle Loop3
+	iaddq $1, %rax
+Loop3:
+	andq %r11, %r11
+	jle Loop4
+	iaddq $1, %rax
+Loop4:
+	andq %r12, %r12
+	jle Loop5
+	iaddq $1, %rax
+Loop5:
+	andq %r13, %r13
+	jle Loop6
+	iaddq $1, %rax
+Loop6:
+	andq %r14, %r14
+	jle Loop7
+	iaddq $1, %rax
+Loop7:
+	andq %rbx, %rbx
+	jle step8
+	iaddq $1, %rax
+
+step8:
+	iaddq $64,%rdi
+	iaddq $-64,%rsi
+Test:
+	iaddq $-8, %rdx
+	jg Loop8 
+	iaddq $8, %rdx
+
+Rem1:
+	mrmovq (%rdi), %r10	# read val from src
+	rmmovq %r10, (%rsi)	# and store it to dst
+	andq %r10, %r10		# val <= 0? 
+	jle Npos1		# if so, goto Npos:
+	iaddq $1, %rax		# count++
+Npos1:	
+	iaddq $8, %rdi		# src++
+	iaddq $-8, %rsi		# dst--
+	iaddq $-1, %rdx		# len--
+	jg Rem1			# if so, goto Loop:
+
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end revcopy-ys */

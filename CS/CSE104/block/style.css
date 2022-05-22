@@ -1,0 +1,17 @@
+h1 {
+    background-color: yellow;
+    border: 2px solid blue;
+}
+h2 {
+    background-color: orange;
+    border: 2px solid red;
+    height: 80px;
+    width: 200px;
+}
+p {
+    background-color: rgb(200,200,200);
+    border: 2px solid black;
+    padding: 15px;
+    margin: 30px;
+    width: 800px;
+}

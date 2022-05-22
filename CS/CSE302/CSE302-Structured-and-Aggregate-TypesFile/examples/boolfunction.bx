@@ -1,0 +1,7 @@
+def bool_f(x, y : bool) : bool{
+    return x && y;
+}
+
+def main() {
+    print(bool_f(true, false) || !bool_f(false, true));
+}

@@ -1,0 +1,10 @@
+type mystr = struct {list : int[10], s : bool};
+
+def main() {
+    var x = 0 : mystr;
+    x.list[2] = 3;
+    x.s = true;
+    if (x.s) {
+        print(x.list[2]);
+    }
+}

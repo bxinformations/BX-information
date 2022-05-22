@@ -1,0 +1,8 @@
+type my = int;
+type my2 = my;
+
+def main()
+{
+    var x = 0 : my2;
+    print(x);
+}
